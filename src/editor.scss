@@ -1,0 +1,35 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-cw-block-card {
+	border: 1px dotted #f00;
+}
+
+.custom-card {
+	border: 1px solid silver;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: #202020;
+	padding: 0.5rem 1rem;
+	color: white;
+}
+
+.custom-card .card-content {
+	background: #282828;
+}
+.custom-card .card-header {
+	margin-bottom: 10px;
+	background-color: #121212;
+	border-radius: 5px;
+}
+
+.custom-card .card-content h3 {
+	color: orangered;
+}
+
+.custom-card p {
+	color: #f1f1f9;
+}

@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/cw-block-card",
+	"version": "0.1.0",
+	"title": "Cw Block Card",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block scaffolded with Create Block tool.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "cw-block-card",
+	"attributes": {
+		"name": {
+			"type": "string",
+			"source": "html",
+			"selector": "h3"
+		},
+		"jobTitle": {
+			"type": "string",
+			"source": "html",
+			"selector": "p.job-title"
+		},
+		"email": {
+			"type": "string",
+			"source": "html",
+			"selector": "p.email"
+		},
+		"phone": {
+			"type": "string",
+			"source": "html",
+			"selector": "p.phone"
+		},
+		"description": {
+			"type": "string",
+			"source": "html",
+			"selector": "div.description"
+		}
+	},
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index-rtl.css",
+	"style": "file:./index.css"
+}
